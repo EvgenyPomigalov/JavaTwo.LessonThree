@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Person {
-    private HashMap <String, ArrayList <String>> tableOfPhones;
+    private HashMap <String, ArrayList <String>> tableOfPhones ;
     private ArrayList<String> phoneNumber;
     public String name;
     public PhoneNumber phone;

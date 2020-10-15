@@ -25,7 +25,7 @@ public class LessonThree {
             "А все-таки Квартет нейдет на лад. ";
     public static void main(String[] args){
         //Все слова в массиве
-        ArrayList <String> arrL = new ArrayList<String>(Arrays.asList(TEXT.toLowerCase().split("([\\w\\d\\,\\.\\!\\;\\?\\:\\—\\»\\«]*\\s+)")));
+        ArrayList <String> arrL = new ArrayList<String>(Arrays.asList(TEXT.toLowerCase().split("([\\w\\d\\,\\.\\!\\;\\?\\:\\—\\»\\«]*\\s+)"))) ;
         System.out.println(arrL);
         //Все слова по одному разу
         HashSet unicWords = new HashSet(Arrays.asList(TEXT.toLowerCase().split("([\\w\\d\\,\\.\\!\\;\\?\\:\\—\\»\\«]*\\s+)")));
